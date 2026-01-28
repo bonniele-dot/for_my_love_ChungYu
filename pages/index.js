@@ -32,9 +32,9 @@ export default function Home()
       </div>
 
       <div className="flex flex-row items-center justify-evenly w-full h-96 bg-pink-50">
-        <CommentedImage src='/marina1.jpg' text="wow so pretty"/>
-        <CommentedImage src='/marina2.jpg' text="omg we&apos;re so cute"/>
-        <CommentedImage src='/marina3.jpg' text="we should kiss?"/>
+        <CommentedImage src='/photo1.jpg' text="wow so pretty"/>
+        <CommentedImage src='/photo2.jpg' text="omg we&apos;re so cute"/>
+        <CommentedImage src='/photo3.jpg' text="we should kiss?"/>
       </div>
 
       <div className="text-center w-full h-64 bg-pink-200 drop-shadow-xl">
