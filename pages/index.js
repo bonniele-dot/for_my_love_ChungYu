@@ -44,15 +44,15 @@ export default function Home()
 
       <div className="flex flex-col items-center text-center w-full h-96 bg-pink-50 p-10">
         <div className="flex flex-row items-center text-center w-full h-5/6 bg-pink-50">
-          <h1 className='w-1/3 text-pink-300 font-bold text-6xl'>Because on this exact day 29 years ago</h1>
+          <h1 className='w-1/3 text-pink-300 font-bold text-2xl'>Because on this exact day 29 years ago</h1>
           <img src='https://sweezy-cursors.com/wp-content/uploads/cursor/milk-amp-mocha-bear-love/milk-mocha-bear-love-custom-cursor.png' width={600}/>
-          <h1 className='w-1/3 text-pink-300 font-bold text-6xl'>my favorite person in the world was born.</h1>
+          <h1 className='w-1/3 text-pink-300 font-bold text-2xl'>my favorite person in the world was born.</h1>
         </div>
-        <h1 className="w-full h-1/4 text-pink-300 font-bold text-6xl uppercase">and Im so happy that I met him in this life</h1>
+        <h1 className="w-full h-1/4 text-pink-300 font-bold text-5xl uppercase">and Im so happy that I met him in this life</h1>
       </div>
 
       <div className="text-center w-full h-64 bg-pink-200 drop-shadow-xl">
-        <h1 className="p-20 tracking-wide text-6xl font-bold text-pink-400 uppercase drop-shadow-xl">To the man who makes my world brighter, I might not say this enough......</h1>
+        <h1 className="p-20 tracking-wide text-2xl font-bold text-pink-400 uppercase drop-shadow-xl">To the man who makes my world brighter, I might not say this enough......</h1>
       </div>
 
       <CornyQuestion 
@@ -64,11 +64,11 @@ export default function Home()
       />
 
       <div className="flex flex-row justify-around items-center text-center w-full h-96 bg-pink-200 p-5">
-        <h1 className='w-2/3 text-pink-400 font-bold text-6xl'>You are my biggest supporter And my favorite person on earth to talk to</h1>
+        <h1 className='w-2/3 text-pink-400 font-bold text-5xl'>You are my biggest supporter! And my favorite person on earth</h1>
       </div>
 
       <div className="flex flex-row justify-around items-center text-center w-full h-96 bg-pink-50 p-5">
-        <h1 className='w-2/3 text-pink-300 font-bold text-6xl'>Thank you for working so hard for our future thank you for choosing me every day.</h1>
+        <h1 className='w-2/3 text-pink-300 font-bold text-5xl'>Thank you for working so hard for our future and thank you for keep on choosing me every day</h1>
       </div>
 
       <CornyQuestion 
@@ -169,37 +169,102 @@ export default function Home()
       {
         confirmed ? 
         <div className="flex flex-col justify-around items-center text-center w-full h-[58em] bg-pink-200 p-5">
-          <h1 className='w-2/3 text-pink-400 font-bold text-6xl'>Prom Confirmation Ticket / Review</h1>
+          <h1 className='w-2/3 text-pink-400 font-bold text-6xl'>The Official Birthday Contract - Level 29 Unlocked</h1>
           <div className="flex flex-col items-center gap-5 text-center w-3/4 h-5/6 bg-white p-5 rounded-3xl shadow-xl">
             <img className="h-24" src="https://cdn.pixabay.com/photo/2018/02/19/20/28/abstract-3166168__480.png" alt=""/>
             <h1 className='w-2/3 text-black font-bold text-4xl underline'>
-              Thank You For Your Confirmation!
+              [SYSTEM ALERT]: A "My birthday is just another day" boy has been detected
+              [RESOLUTION]: That boy has been matched with a "Your birthday is the most special day ever" girl
+              Processing... Your Dino is definitely more excited for your birthday than you are!
             </h1>
-            <h2 className='w-2/3 text-black opacity-75 font-bold italic text-2xl'>
-              Name of Partner
-            </h2>
-            <h3 className='w-2/3 text-black opacity-90 font-bold text-2xl'>
-              Aidan Ouckama
-            </h3>
-            <h2 className='w-2/3 text-black opacity-75 font-bold italic text-2xl'>
-              Location
-            </h2>
-            <h3 className='w-2/3 text-black opacity-90 font-bold text-2xl'>
-              Grove by the River, Newark
-            </h3>
-            <h2 className='w-2/3 text-black opacity-75 font-bold italic text-2xl'>
-              Time
-            </h2>
-            <h3 className='w-2/3 text-black opacity-90 font-bold text-2xl'>
-              9:00 PM - 11:00 PM
-            </h3>
-            <h2 className='w-2/3 text-black opacity-75 font-bold italic text-2xl'>
-              Events
-            </h2>
-            <h3 className='w-2/3 text-black opacity-90 font-bold text-2xl'>
-              • Dinner • Photos • Prom • Post-Prom •
-            </h3>
-            <img className="h-24" src="https://cdn.pixabay.com/photo/2018/02/19/20/28/abstract-3166168__480.png" alt=""/>
+           {/* OFFICIAL BIRTHDAY CONTRACT SECTION */}
+<div className="flex flex-col items-center text-center w-full bg-white py-12 px-6">
+  <p className="max-w-3xl text-gray-700 text-lg sm:text-xl leading-relaxed">
+    Happy birthday to the person who owns my heart, even from miles apart.
+    <br />
+    <span className="italic text-gray-600">
+      Note: this contract remains legally binding across all time zones.
+    </span>
+  </p>
+
+  <p className="max-w-3xl mt-6 text-gray-700 text-lg sm:text-xl leading-relaxed">
+    Reminder: Even though distance keeps us apart, my heart never left your side.
+  </p>
+
+  <div className="w-24 h-1 bg-pink-200 rounded-full my-10" />
+
+  <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+    Level 29 Certification
+  </h2>
+  <p className="max-w-3xl mt-4 text-gray-700 text-lg sm:text-xl leading-relaxed">
+    Wow, another year passed! My favorite man is now officially entering his 29th Birthday.
+    <br />
+    Despite the ups and downs of the past year, I am so incredibly proud of you.
+  </p>
+
+  <div className="w-24 h-1 bg-pink-200 rounded-full my-10" />
+
+  <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+    Dino Recognition
+  </h2>
+  <p className="max-w-3xl mt-4 text-gray-700 text-lg sm:text-xl leading-relaxed">
+    You’ve been giving your best, even when things get tough.
+    <br />
+    This resilience is one of the many reasons I love you so much.
+    <br />
+    You are my peace and the one I always root for.
+  </p>
+
+  <div className="w-24 h-1 bg-pink-200 rounded-full my-10" />
+
+  <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+    Mandatory Celebration Requirement
+  </h2>
+  <p className="max-w-3xl mt-4 text-gray-700 text-lg sm:text-xl leading-relaxed">
+    On your special day, you are contractually obligated to be cherished by me.
+    <br />
+    I wish I could be there to hug you, celebrate with you, eat the cake with you and see you in person.
+  </p>
+
+  <div className="w-24 h-1 bg-pink-200 rounded-full my-10" />
+
+  <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+    Ongoing Encouragement
+  </h2>
+  <p className="max-w-3xl mt-4 text-gray-700 text-lg sm:text-xl leading-relaxed">
+    I hope this message makes you feel how much I love and miss you.
+    <br />
+    I will always be there to cheer you on, today and every day after.
+  </p>
+
+  <div className="w-24 h-1 bg-pink-200 rounded-full my-10" />
+
+  <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+    Official Birthday Confirmation
+  </h2>
+
+  <div className="w-full max-w-3xl mt-6 bg-pink-50 border border-pink-100 rounded-2xl p-6 text-left">
+    <p className="text-lg sm:text-xl text-gray-800">
+      <span className="font-semibold text-pink-600">Name of Partner:</span> Chen Chung Yu
+    </p>
+    <p className="text-lg sm:text-xl text-gray-800 mt-2">
+      <span className="font-semibold text-pink-600">Location:</span> My Heart (Permanently)
+    </p>
+    <p className="text-lg sm:text-xl text-gray-800 mt-2">
+      <span className="font-semibold text-pink-600">Status:</span> Deeply Loved &amp; Appreciated
+    </p>
+    <p className="text-lg sm:text-xl text-gray-800 mt-2">
+      <span className="font-semibold text-pink-600">Events Included:</span> • Virtual Kisses • Infinite Support • Future Adventures •
+    </p>
+  </div>
+
+  <img
+    className="h-16 mt-10 opacity-70"
+    src="https://cdn.pixabay.com/photo/2018/02/19/20/28/abstract-3166168__480.png"
+    alt=""
+  />
+</div>
+
           </div>
         </div>
         : 
