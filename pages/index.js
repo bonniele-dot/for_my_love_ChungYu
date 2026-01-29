@@ -178,22 +178,34 @@ export default function Home()
         </AlertDialog>
       </div>
 
-      {
-        confirmed ? 
-        <div className="flex flex-col justify-around items-center text-center w-full h-[58em] bg-pink-200 p-5">
-          <h1 className='w-2/3 text-pink-400 font-bold text-6xl'>The Official Birthday Contract - Level 29 Unlocked</h1>
-          <div className="flex flex-col items-center gap-5 text-center w-3/4 h-5/6 bg-white p-5 rounded-3xl shadow-xl">
-            <img className="h-24" src="https://cdn.pixabay.com/photo/2018/02/19/20/28/abstract-3166168__480.png" alt=""/>
-            <h1 className='w-2/3 text-black font-bold text-4xl underline'>
-  [SYSTEM ALERT]: A &quot;My birthday is just another day&quot; boy has been detected
-  <br />
-  [RESOLUTION]: That boy has been matched with a &quot;Your birthday is the most special day ever&quot; girl
-  <br />
-  Processing... Your Dino is definitely more excited for your birthday than you are!
-</h1>
-            </h1>
-           {/* OFFICIAL BIRTHDAY CONTRACT SECTION */}
-<div className="flex flex-col items-center text-center w-full bg-white py-12 px-6">
+{confirmed ? (
+  <div className="flex flex-col justify-around items-center text-center w-full h-[58em] bg-pink-200 p-5">
+    <h1 className="w-2/3 text-pink-400 font-bold text-6xl">
+      The Official Birthday Contract – Level 29 Unlocked
+    </h1>
+
+    <div className="flex flex-col items-center gap-5 text-center w-3/4 h-5/6 bg-white p-5 rounded-3xl shadow-xl">
+      <img
+        className="h-24"
+        src="https://cdn.pixabay.com/photo/2018/02/19/20/28/abstract-3166168__480.png"
+        alt=""
+      />
+
+      <h1 className="w-2/3 text-black font-bold text-4xl underline">
+        [SYSTEM ALERT]: A &quot;My birthday is just another day&quot; boy has been detected
+        <br />
+        [RESOLUTION]: That boy has been matched with a &quot;Your birthday is the most special day ever&quot; girl
+        <br />
+        Processing... Your Dino is definitely more excited for your birthday than you are!
+      </h1>
+    </div>
+
+    {/* OFFICIAL BIRTHDAY CONTRACT SECTION */}
+    <div className="flex flex-col items-center text-center w-full bg-white py-12 px-6">
+      ...
+    </div>
+  </div>
+) : null}
   <p className="max-w-3xl text-gray-700 text-lg sm:text-xl leading-relaxed">
     Happy birthday to the person who owns my heart, even from miles apart.
     <br />
