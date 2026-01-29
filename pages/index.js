@@ -178,7 +178,7 @@ export default function Home()
         </AlertDialog>
       </div>
 
-{confirmed ? (
+{confirmed && (
   <div className="flex flex-col items-center text-center w-full bg-pink-200 p-6">
     <h1 className="w-2/3 text-pink-400 font-bold text-5xl sm:text-6xl">
       The Official Birthday Contract – Level 29 Unlocked
@@ -290,4 +290,4 @@ export default function Home()
       />
     </div>
   </div>
-) : null}
+)}
