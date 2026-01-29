@@ -55,6 +55,19 @@ export default function Home()
         <h1 className="p-20 tracking-wide text-2xl font-bold text-pink-400 uppercase drop-shadow-xl">To the man who makes my world brighter, I might not say this enough......</h1>
       </div>
 
+      <div className="w-full bg-pink-50 py-12 px-6 flex flex-col items-center text-center">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-pink-500 uppercase tracking-wide">
+         A Message For You 💖
+         </h2>
+
+         <p className="max-w-4xl mt-6 text-lg sm:text-xl md:text-2xl font-semibold text-pink-300 leading-relaxed">
+          I see everything you do for us, every time you explore the world with me,
+          every time you make me laugh when I’m sad, every time you believe in me,
+          every good food we try together, every thing you teach me, every everything..
+  </p>
+  <img className="h-28 mt-8" src="/photo5.jpg" alt="cute" />
+</div>
+
       <CornyQuestion 
         question="I see everything you do for us, every time you explore the world with me, every time you make me laugh when Im sad, every time you believe in me, every good food we try together, every thing you teach me, every everything.."
         nonactive="photo4.JPG"
@@ -62,6 +75,7 @@ export default function Home()
         primary
         left
       />
+      
 
       <div className="flex flex-row justify-around items-center text-center w-full h-96 bg-pink-200 p-5">
         <h1 className='w-2/3 text-pink-400 font-bold text-5xl'>You are my biggest supporter! And my favorite person on earth</h1>
