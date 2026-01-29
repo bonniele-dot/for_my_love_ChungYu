@@ -33,9 +33,9 @@ export default function Home()
       </div>
 
       <div className="flex flex-row items-center justify-evenly w-full h-96 bg-pink-50">
-        <CommentedImage src='/photo1.JPG' text="this is my handsome man"/>
+        <CommentedImage src='/Photo1.jpeg' text="this is my handsome man"/>
         <CommentedImage src='/photo2.jpg' text="and today is his birthday"/>
-        <CommentedImage src='/photo3.PNG' text="showing you my love and care in here, hope you can feel it"/>
+        <CommentedImage src='/photo3.jpg' text="showing you my love and care in here, hope you can feel it"/>
       </div>
 
       <div className="text-center w-full h-64 bg-pink-200 drop-shadow-xl">
