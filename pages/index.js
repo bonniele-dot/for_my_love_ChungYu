@@ -27,7 +27,7 @@ export default function Home()
     
       <div className="flex flex-row justify-center items-center w-full h-full bg-pink-200 p-10 drop-shadow-xl">
         <div className="w-2/3 h-64 bg-gradient-to-r from-pink-300 to-pink-200 drop-shadow-xl rounded-full text-center transition-all duration-300">
-          <h1 className="p-6 tracking-wide text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase drop-shadow-lg leading-tight"> Hi my love Chung Yu, happy birthday to you! 我的大男孩，生日快乐！ 暴富暴美~ 谢谢你出现在我的生命里!!! 我越来越爱你。希望以后的每一个生日，我都在你身边🎉💖</h1>
+          <h1 className="p-6 tracking-wide text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase drop-shadow-lg leading-tight">Hi my love Chung Yu, happy birthday to you! 我的大男孩，生日快乐！暴富暴帅～谢谢你出现在我的生命里！我越来越爱你。希望以后的每一个生日，我都在你身边🎉💖</h1>
 
         </div>
       </div>
