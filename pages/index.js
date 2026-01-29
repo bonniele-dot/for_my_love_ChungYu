@@ -27,14 +27,14 @@ export default function Home()
     
       <div className="flex flex-row justify-center items-center w-full h-full bg-pink-200 p-10 drop-shadow-xl">
         <div className="w-2/3 h-64 bg-gradient-to-r from-pink-300 to-pink-200 drop-shadow-xl rounded-full text-center transition-all duration-300">
-          <h1 className="p-20 tracking-wide text-8xl font-bold text-white uppercase drop-shadow-lg">Hi my love</h1>
+          <h1 className="p-20 tracking-wide text-8xl font-bold text-white uppercase drop-shadow-lg">Hi my love Chung Yu, happy birthday to you! 我的大男孩，生日快乐！ 暴富暴美~ 谢谢你出现在我的生命里!!! 我越来越爱你。希望以后的每一个生日，我都在你身边</h1>
         </div>
       </div>
 
       <div className="flex flex-row items-center justify-evenly w-full h-96 bg-pink-50">
-        <CommentedImage src='/photo1.jpg' text="wow so pretty"/>
-        <CommentedImage src='/photo2.jpg' text="omg we&apos;re so cute"/>
-        <CommentedImage src='/photo3.jpg' text="we should kiss?"/>
+        <CommentedImage src='/photo1.JPG' text="this is my handsome man"/>
+        <CommentedImage src='/photo2.jpg' text="and today is his birthday"/>
+        <CommentedImage src='/photo3.PNG' text="showing you my love and care"/>
       </div>
 
       <div className="text-center w-full h-64 bg-pink-200 drop-shadow-xl">
